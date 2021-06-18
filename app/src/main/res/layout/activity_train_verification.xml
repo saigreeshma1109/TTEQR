@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TrainVerificationActivity"
+    android:background="@drawable/train_verify_bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Train No."
+        android:textSize="35dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="100dp"/>
+
+    <EditText
+        android:id="@+id/trainNo"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text=""
+        android:textColor="#000000"
+        android:maxLength="5"
+        android:textSize="30dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="50dp"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_marginTop="400dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/roundedcor"/>
+
+
+</RelativeLayout>

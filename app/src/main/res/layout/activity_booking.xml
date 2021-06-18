@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/booking_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BOOKING"
+        android:textSize="50dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FROM"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/from"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"
+        android:spinnerMode="dialog"
+        android:prompt="@string/from"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TO"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/to"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"
+        android:prompt="@string/to"
+        android:spinnerMode="dialog"
+        android:textSize="25dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/book"
+        android:text="Book ticket"
+        android:background="@drawable/roundedcor"
+        android:layout_marginTop="460dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>

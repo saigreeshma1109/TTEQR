@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TTEQR</string>
+    <string name="from">Select Station</string>
+    <string name="to">Select Destination</string>
+</resources>
